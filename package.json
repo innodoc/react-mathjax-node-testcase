@@ -1,0 +1,51 @@
+{
+  "name": "react-mathjax-node-testcase",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Mirko Dietrich <dietrich@math.tu-berlin.de>",
+  "license": "MIT",
+  "private": true,
+  "browserslist": [
+    ">1%",
+    "last 1 version",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server",
+    "format": "prettier --write \"*.js\" \"{src,test}/**/*.js\"",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@innodoc/react-mathjax-node": "^0.0.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-root-plugin": "^0.10.0",
+    "prettier": "^1.19.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  }
+}
